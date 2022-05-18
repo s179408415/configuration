@@ -1,0 +1,2 @@
+$ echo '<?xml version="1.0"?><!DOCTYPE target SYSTEM "gdb-target.dtd"><target><architecture>i8086</architecture><xi:include href="i386-32bit.xml"/></target>' > target.xml
+$ wget https://raw.githubusercontent.com/qemu/qemu/master/gdb-xml/i386-32bit.xml
